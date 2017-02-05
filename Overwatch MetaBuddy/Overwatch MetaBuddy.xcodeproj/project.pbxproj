@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B60EED291E46847100DC2CA7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B60EED281E46847100DC2CA7 /* libsqlite3.tbd */; };
+		D837BB751E46BB200010DDA9 /* OffenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837BB741E46BB200010DDA9 /* OffenseTableViewController.swift */; };
+		D837BB771E46BB330010DDA9 /* DefenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837BB761E46BB330010DDA9 /* DefenseTableViewController.swift */; };
+		D837BB791E46BB3F0010DDA9 /* TankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837BB781E46BB3F0010DDA9 /* TankTableViewController.swift */; };
+		D837BB7B1E46BB460010DDA9 /* SupportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D837BB7A1E46BB460010DDA9 /* SupportTableViewController.swift */; };
+		D84503A61E46CBF100BAA1E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84503A51E46CBF100BAA1E4 /* MapViewController.swift */; };
 		D857DE541E465CF300B35A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857DE531E465CF300B35A1D /* AppDelegate.swift */; };
-		D857DE561E465CF300B35A1D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857DE551E465CF300B35A1D /* FirstViewController.swift */; };
-		D857DE581E465CF300B35A1D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857DE571E465CF300B35A1D /* SecondViewController.swift */; };
 		D857DE5B1E465CF300B35A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D857DE591E465CF300B35A1D /* Main.storyboard */; };
 		D857DE5D1E465CF300B35A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D857DE5C1E465CF300B35A1D /* Assets.xcassets */; };
 		D857DE601E465CF300B35A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D857DE5E1E465CF300B35A1D /* LaunchScreen.storyboard */; };
+		D857DE6A1E46B5C200B35A1D /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857DE691E46B5C200B35A1D /* RoleViewController.swift */; };
+		D8CC22D61E46D593001FBC5A /* EscortTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC22D51E46D593001FBC5A /* EscortTableViewController.swift */; };
+		D8CC22D81E46D5AA001FBC5A /* AssaultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC22D71E46D5AA001FBC5A /* AssaultTableViewController.swift */; };
+		D8CC22DA1E46D5BA001FBC5A /* HybridTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC22D91E46D5BA001FBC5A /* HybridTableViewController.swift */; };
+		D8CC22DC1E46D5CC001FBC5A /* ControlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CC22DB1E46D5CC001FBC5A /* ControlTableViewController.swift */; };
+		D8CC22DF1E46D743001FBC5A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC22DE1E46D743001FBC5A /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B60EED281E46847100DC2CA7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D837BB741E46BB200010DDA9 /* OffenseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffenseTableViewController.swift; sourceTree = "<group>"; };
+		D837BB761E46BB330010DDA9 /* DefenseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefenseTableViewController.swift; sourceTree = "<group>"; };
+		D837BB781E46BB3F0010DDA9 /* TankTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TankTableViewController.swift; sourceTree = "<group>"; };
+		D837BB7A1E46BB460010DDA9 /* SupportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportTableViewController.swift; sourceTree = "<group>"; };
+		D84503A51E46CBF100BAA1E4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D857DE501E465CF300B35A1D /* Overwatch MetaBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overwatch MetaBuddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D857DE531E465CF300B35A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D857DE551E465CF300B35A1D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D857DE571E465CF300B35A1D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D857DE5A1E465CF300B35A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D857DE5C1E465CF300B35A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D857DE5F1E465CF300B35A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D857DE611E465CF300B35A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D857DE691E46B5C200B35A1D /* RoleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
+		D8CC22D51E46D593001FBC5A /* EscortTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscortTableViewController.swift; sourceTree = "<group>"; };
+		D8CC22D71E46D5AA001FBC5A /* AssaultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssaultTableViewController.swift; sourceTree = "<group>"; };
+		D8CC22D91E46D5BA001FBC5A /* HybridTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridTableViewController.swift; sourceTree = "<group>"; };
+		D8CC22DB1E46D5CC001FBC5A /* ControlTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlTableViewController.swift; sourceTree = "<group>"; };
+		D8CC22DE1E46D743001FBC5A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B60EED291E46847100DC2CA7 /* libsqlite3.tbd in Frameworks */,
+				D8CC22DF1E46D743001FBC5A /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +69,7 @@
 			children = (
 				D857DE521E465CF300B35A1D /* Overwatch MetaBuddy */,
 				D857DE511E465CF300B35A1D /* Products */,
-				B60EED271E46847100DC2CA7 /* Frameworks */,
+				D8CC22DD1E46D743001FBC5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,14 +85,30 @@
 			isa = PBXGroup;
 			children = (
 				D857DE531E465CF300B35A1D /* AppDelegate.swift */,
-				D857DE551E465CF300B35A1D /* FirstViewController.swift */,
-				D857DE571E465CF300B35A1D /* SecondViewController.swift */,
 				D857DE591E465CF300B35A1D /* Main.storyboard */,
+				D84503A51E46CBF100BAA1E4 /* MapViewController.swift */,
 				D857DE5C1E465CF300B35A1D /* Assets.xcassets */,
+				D857DE691E46B5C200B35A1D /* RoleViewController.swift */,
 				D857DE5E1E465CF300B35A1D /* LaunchScreen.storyboard */,
 				D857DE611E465CF300B35A1D /* Info.plist */,
+				D837BB741E46BB200010DDA9 /* OffenseTableViewController.swift */,
+				D837BB761E46BB330010DDA9 /* DefenseTableViewController.swift */,
+				D837BB781E46BB3F0010DDA9 /* TankTableViewController.swift */,
+				D837BB7A1E46BB460010DDA9 /* SupportTableViewController.swift */,
+				D8CC22D51E46D593001FBC5A /* EscortTableViewController.swift */,
+				D8CC22D71E46D5AA001FBC5A /* AssaultTableViewController.swift */,
+				D8CC22D91E46D5BA001FBC5A /* HybridTableViewController.swift */,
+				D8CC22DB1E46D5CC001FBC5A /* ControlTableViewController.swift */,
 			);
 			path = "Overwatch MetaBuddy";
+			sourceTree = "<group>";
+		};
+		D8CC22DD1E46D743001FBC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC22DE1E46D743001FBC5A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +184,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D857DE581E465CF300B35A1D /* SecondViewController.swift in Sources */,
+				D837BB7B1E46BB460010DDA9 /* SupportTableViewController.swift in Sources */,
+				D8CC22D61E46D593001FBC5A /* EscortTableViewController.swift in Sources */,
+				D837BB771E46BB330010DDA9 /* DefenseTableViewController.swift in Sources */,
+				D837BB791E46BB3F0010DDA9 /* TankTableViewController.swift in Sources */,
+				D837BB751E46BB200010DDA9 /* OffenseTableViewController.swift in Sources */,
+				D857DE6A1E46B5C200B35A1D /* RoleViewController.swift in Sources */,
 				D857DE541E465CF300B35A1D /* AppDelegate.swift in Sources */,
-				D857DE561E465CF300B35A1D /* FirstViewController.swift in Sources */,
+				D8CC22DA1E46D5BA001FBC5A /* HybridTableViewController.swift in Sources */,
+				D8CC22D81E46D5AA001FBC5A /* AssaultTableViewController.swift in Sources */,
+				D84503A61E46CBF100BAA1E4 /* MapViewController.swift in Sources */,
+				D8CC22DC1E46D5CC001FBC5A /* ControlTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
