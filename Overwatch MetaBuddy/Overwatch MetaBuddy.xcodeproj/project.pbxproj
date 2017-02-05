@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60EED291E46847100DC2CA7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B60EED281E46847100DC2CA7 /* libsqlite3.tbd */; };
+		B60EED2B1E46854600DC2CA7 /* OMBDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EED2A1E46854600DC2CA7 /* OMBDatabaseManager.swift */; };
+		B60EED2F1E470A7000DC2CA7 /* SQLDataIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60EED2E1E470A7000DC2CA7 /* SQLDataIO.swift */; };
 		D857DE541E465CF300B35A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857DE531E465CF300B35A1D /* AppDelegate.swift */; };
 		D857DE561E465CF300B35A1D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857DE551E465CF300B35A1D /* FirstViewController.swift */; };
 		D857DE581E465CF300B35A1D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857DE571E465CF300B35A1D /* SecondViewController.swift */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B60EED281E46847100DC2CA7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B60EED2A1E46854600DC2CA7 /* OMBDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OMBDatabaseManager.swift; sourceTree = "<group>"; };
+		B60EED2C1E46FC6300DC2CA7 /* omb.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = omb.db; sourceTree = "<group>"; };
+		B60EED2D1E47077800DC2CA7 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		B60EED2E1E470A7000DC2CA7 /* SQLDataIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLDataIO.swift; sourceTree = "<group>"; };
 		D857DE501E465CF300B35A1D /* Overwatch MetaBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Overwatch MetaBuddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D857DE531E465CF300B35A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D857DE551E465CF300B35A1D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60EED291E46847100DC2CA7 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60EED271E46847100DC2CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B60EED281E46847100DC2CA7 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D857DE471E465CF300B35A1D = {
 			isa = PBXGroup;
 			children = (
 				D857DE521E465CF300B35A1D /* Overwatch MetaBuddy */,
 				D857DE511E465CF300B35A1D /* Products */,
+				B60EED271E46847100DC2CA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +74,7 @@
 		D857DE521E465CF300B35A1D /* Overwatch MetaBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				B60EED2C1E46FC6300DC2CA7 /* omb.db */,
 				D857DE531E465CF300B35A1D /* AppDelegate.swift */,
 				D857DE551E465CF300B35A1D /* FirstViewController.swift */,
 				D857DE571E465CF300B35A1D /* SecondViewController.swift */,
@@ -63,6 +82,9 @@
 				D857DE5C1E465CF300B35A1D /* Assets.xcassets */,
 				D857DE5E1E465CF300B35A1D /* LaunchScreen.storyboard */,
 				D857DE611E465CF300B35A1D /* Info.plist */,
+				B60EED2A1E46854600DC2CA7 /* OMBDatabaseManager.swift */,
+				B60EED2D1E47077800DC2CA7 /* BridgingHeader.h */,
+				B60EED2E1E470A7000DC2CA7 /* SQLDataIO.swift */,
 			);
 			path = "Overwatch MetaBuddy";
 			sourceTree = "<group>";
@@ -141,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D857DE581E465CF300B35A1D /* SecondViewController.swift in Sources */,
+				B60EED2B1E46854600DC2CA7 /* OMBDatabaseManager.swift in Sources */,
 				D857DE541E465CF300B35A1D /* AppDelegate.swift in Sources */,
 				D857DE561E465CF300B35A1D /* FirstViewController.swift in Sources */,
+				B60EED2F1E470A7000DC2CA7 /* SQLDataIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +294,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "VelaBorja.Overwatch-MetaBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Overwatch MetaBuddy/BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -283,6 +308,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "VelaBorja.Overwatch-MetaBuddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Overwatch MetaBuddy/BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +332,7 @@
 				D857DE661E465CF300B35A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
